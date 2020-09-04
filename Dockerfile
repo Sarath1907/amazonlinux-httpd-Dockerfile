@@ -8,7 +8,7 @@ RUN echo  " "
 RUN yum install httpd -y
 
 # configure
-RUN echo "Jenkins Docker Build and Publish " >> /var/www/html/index.html
+RUN echo "Jenkins Docker Build and Publish "
 
 
 
